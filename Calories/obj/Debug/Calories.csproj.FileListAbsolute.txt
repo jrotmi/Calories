@@ -1,0 +1,5 @@
+c:\users\jeffreyroiy\documents\visual studio 2013\Projects\Calories\Calories\bin\Debug\Calories.exe.config
+c:\users\jeffreyroiy\documents\visual studio 2013\Projects\Calories\Calories\bin\Debug\Calories.exe
+c:\users\jeffreyroiy\documents\visual studio 2013\Projects\Calories\Calories\bin\Debug\Calories.pdb
+c:\users\jeffreyroiy\documents\visual studio 2013\Projects\Calories\Calories\obj\Debug\Calories.exe
+c:\users\jeffreyroiy\documents\visual studio 2013\Projects\Calories\Calories\obj\Debug\Calories.pdb
