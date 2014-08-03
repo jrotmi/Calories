@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Calories
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Console.WriteLine("How many Calories did you eat today?");
             string userCalories = Console.ReadLine();
@@ -18,7 +18,7 @@ namespace Calories
             int inCalories;
             bool isValid = int.TryParse(userCalories, out inCalories);
             if (isValid)
-            {                   
+            {
                 if (inCalories <= 1500)
                     message = "You didn't eat too many calories today!";
                 else if ((inCalories > 1500) && (inCalories <= 2000))
@@ -27,11 +27,11 @@ namespace Calories
                     message = "You ate A LOT!";
             }
             else
+            {
                 message = "Please insert a string of numbers";
-
+            }
             Console.WriteLine(message);
 
-            Console.ReadLine();
             Console.ReadLine();
         }
     }
